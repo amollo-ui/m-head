@@ -4,13 +4,13 @@
         "module": "commonjs",
         "declaration": true,
         "outDir": "./dist",
-        "strict": true
+        "strict": true,
+        "pretty": true,
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "allowJs": false,
+        "alwaysStrict": true,
+        "resolveJsonModule": true,
     },
-    "include": [
-        "lib"
-    ],
-    "exclude": [
-        "node_modules",
-        "**/__tests__/*"
-    ]
+    "extends": "./tsconfig.paths.json"
 }

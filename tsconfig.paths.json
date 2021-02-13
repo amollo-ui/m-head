@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "rootDir": "./",
+        "baseUrl": "lib",
+        "outDir": "dist",
+        "typeRoots": [
+            "node_modules/@types",
+            "typings"
+        ]
+    },
+    "exclude": [
+        "dist",
+        "node_modules",
+        "lib/**/*.test.tsx",
+        "lib/**/*.spec.tsx",
+        "**/__tests__/*"
+    ],
+    "include": [
+        "lib/**/*.ts",
+        "lib/**/*.tsx",
+        "typings/**/*.d.ts"
+    ]
+}
