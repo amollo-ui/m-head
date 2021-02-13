@@ -1,0 +1,36 @@
+{
+  "name": "m-head",
+  "version": "0.0.1",
+  "description": "Head manager for React",
+  "author": "arma73 <arma.biz9805@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/amollo-ui/m-head"
+  },
+  "keywords": [
+    "head",
+    "tags",
+    "meta",
+    "title",
+    "react-title",
+    "react-meta-tags",
+    "react-head",
+    "component",
+    "components",
+    "frontend",
+    "react",
+    "markup"
+  ],
+  "bugs": {
+    "url": "https://github.com/amollo-ui/m-head/issues"
+  },
+  "homepage": "https://github.com/amollo-ui/m-head#README.md",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "sideEffects": false,
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0"
+  }
+}
