@@ -30,7 +30,9 @@
   "types": "lib/index.d.ts",
   "sideEffects": false,
   "files": [
-    "dist/**/*"
+    "dist/**/*",
+    "LICENSE",
+    "README.md"
   ],
   "publishConfig": {
     "access": "public"
@@ -40,6 +42,8 @@
     "format": "prettier --write \"lib/**/*.{ts,tsx}\"",
     "lint": "eslint \"*/**/*.{js,ts,tsx}\" --quiet",
     "lint:fix": "eslint \"*/**/*.{js,ts,tsx}\" --quiet --fix",
+    "test": "jest",
+    "test:watch": "jest --watch",
     "prepare": "npm run build",
     "prepublishOnly": "npm test && npm run lint",
     "preversion": "npm run lint",
@@ -65,6 +69,7 @@
     "@babel/eslint-plugin": "^7.12.13",
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.5",
+    "@types/jest": "^26.0.20",
     "@typescript-eslint/eslint-plugin": "^4.15.0",
     "@typescript-eslint/parser": "^4.15.0",
     "eslint": "^7.20.0",
