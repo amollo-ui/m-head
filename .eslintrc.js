@@ -15,6 +15,7 @@ module.exports = {
         "es2020": true,
         "node": true,
         "es6": true,
+        "jest": true,
     },
     "plugins": ["@babel", "react", "jsx-a11y", "react-hooks", "prettier"],
     "extends": [
@@ -47,7 +48,21 @@ module.exports = {
     },
     "rules": {
         // Prettier
-        "prettier/prettier": 2,
+        "prettier/prettier": ["error", {
+            "semi": true,
+            "singleQuote": false,
+            "printWidth": 80,
+            "useTabs": false,
+            "tabWidth": 4,
+            "quoteProps": "preserve",
+            "jsxSingleQuote": false,
+            "trailingComma": "es5",
+            "bracketSpacing": true,
+            "jsxBracketSameLine": false,
+            "arrowParens": "avoid",
+            "parser": "typescript",
+            "endOfLine": "auto"
+        }],
 
         // React
         "react/jsx-fragments": ["error", "syntax"],
