@@ -43,7 +43,7 @@ module.exports = {
             },
         },
         "react": {
-            "version": ">=16.8.0"
+            "version": "detect"
         }
     },
     "rules": {
