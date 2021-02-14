@@ -2,8 +2,9 @@
     "compilerOptions": {
         "target": "ES5",
         "module": "commonjs",
+        "lib": ["DOM", "ES2015"],
+        "jsx": "react-jsx",
         "declaration": true,
-        "outDir": "./dist",
         "strict": true,
         "pretty": true,
         "esModuleInterop": true,
@@ -11,6 +12,9 @@
         "allowJs": false,
         "alwaysStrict": true,
         "resolveJsonModule": true,
+        "types": [
+            "jest"
+        ]
     },
     "extends": "./tsconfig.paths.json"
 }
