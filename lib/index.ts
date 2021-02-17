@@ -1,2 +1,2 @@
 // html head components
-export { default as HTMLHead } from "./components/head";
+export { default } from "./components/head";
