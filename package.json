@@ -42,7 +42,7 @@
     "format": "prettier --write \"lib/**/*.{ts,tsx}\"",
     "lint": "eslint \"*/**/*.{js,ts,tsx}\" --quiet",
     "lint:fix": "eslint \"*/**/*.{js,ts,tsx}\" --quiet --fix",
-    "test": "jest",
+    "test": "jest --passWithNoTests",
     "test:watch": "jest --watch",
     "prepare": "npm run build",
     "prepublishOnly": "npm test && npm run lint",
