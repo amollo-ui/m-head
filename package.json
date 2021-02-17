@@ -26,8 +26,8 @@
     "url": "https://github.com/amollo-ui/m-head/issues"
   },
   "homepage": "https://github.com/amollo-ui/m-head#README.md",
-  "main": "lib/index.js",
-  "types": "lib/index.d.ts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "sideEffects": false,
   "files": [
     "dist/**/*",
