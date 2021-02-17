@@ -19,7 +19,17 @@ module.exports = {
         "@typescript-eslint/no-var-requires": "warn",
         "@typescript-eslint/brace-style": ["warn", "1tbs"],
         "@typescript-eslint/no-extra-semi": ["warn"],
-        "@typescript-eslint/ban-types": "warn",
+        "@typescript-eslint/ban-types": [
+            "warn",
+            {
+                "types": {
+                    "String": {
+                        "message": "use string instead",
+                        "fixWith": "string",
+                    },
+                }
+            }
+        ],
         "@typescript-eslint/no-empty-interface": "off",
         "@typescript-eslint/no-non-null-assertion": "warn",
         "@typescript-eslint/explicit-module-boundary-types": "off",
