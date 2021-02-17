@@ -1,14 +1,12 @@
 # m-head
 > **Note**: *This package is in test and development state, do not use in production*.
+_____
 
 [![MIT License][license-image]][LICENSE]
-
-_____
 ## Overview
 Handle meta tags/document titles from jsx.
 
 ## Install
-_____
 Using npm:
 
 ```
