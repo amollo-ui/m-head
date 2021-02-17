@@ -225,7 +225,7 @@ module.exports = {
 
         // Core
         "indent": [
-            "error",
+            "off",
             4,
             {
                 "SwitchCase": 1,
@@ -237,7 +237,6 @@ module.exports = {
         "no-tabs": 0,
 
         // code...
-        "complexity": ["warn", { "max": 3 }],
         "arrow-body-style": [2, "as-needed"],
         "arrow-parens": [2, "as-needed"],
         "no-return-assign": 0,
