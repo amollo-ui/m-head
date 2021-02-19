@@ -1,6 +1,6 @@
 {
   "name": "m-head",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Head manager for React",
   "author": "arma73 <arma.biz9805@gmail.com>",
   "license": "MIT",
@@ -47,7 +47,7 @@
     "prepare": "npm run build",
     "prepublishOnly": "npm test && npm run lint",
     "preversion": "npm run lint",
-    "version": "git add -A src",
+    "version": "git add -A lib",
     "postversion": "git push && git push --tags"
   },
   "husky": {
